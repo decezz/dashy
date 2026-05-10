@@ -58,7 +58,6 @@ sections:
         target: newtab
 
 
-sections:
   - name: "⏰ 时间"
     icon: "fas fa-sun"
     displayData:
