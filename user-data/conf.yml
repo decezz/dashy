@@ -33,29 +33,56 @@ sections:
   - name: 工具集合
     icon: fas fa-rocket
     items:
+      - title: Google
+        icon: favicon
+        url: https://www.google.com
+      - title: GitHub
+        icon: favicon
+        url: https://github.com/
+      - title: DockerHub
+        icon: favicon
+        url: https://hub.docker.com/
+
+      - title: 抖音
+        icon: favicon
+        url: https://www.douyin.com/
+      - title: deepseek 聊天
+        icon: favicon
+        url: https://chat.deepseek.com/
+      - title: deepseek开放平台
+        icon: favicon
+        url: https://platform.deepseek.com/
+
       - title: it 工具
         icon: favicon
         url: https://it-tools.tech/
-        target: newtab
+      - title: Json 4u
+        icon: https://json4u.com/icon.svg
+        url: https://json4u.com/editor
       - title: Hoppscotch
         icon: favicon
         url: https://hoppscotch.io/
-        target: newtab
-      - title: Swagger
-        icon: favicon
-        url: https://petstore.swagger.io/
-        target: newtab
+
       - title: Excalidraw画板
         icon: favicon
         url: https://excalidraw.com/
-        target: newtab
       - title: Diagrams画图
         icon: favicon
         url: https://app.diagrams.net/
       - title: 无限画布
         icon: favicon
         url: https://www.tldraw.com/
-        target: newtab
+
+      - title: Swagger
+        icon: favicon
+        url: https://petstore.swagger.io/
+      - title: Proton邮箱
+        icon: https://mail.proton.me/assets/android-chrome-144x144.png
+        url: https://mail.proton.me/
+      - title: Vercel
+        icon: favicon
+        url: https://vercel.com/
+        
 
 
   - name: "⏰ 时间"
@@ -70,3 +97,22 @@ sections:
           timeZone: "Asia/Shanghai"   # 时区
           hideDate: false             # 显示日期
           hideSeconds: false          # 显示秒数
+
+
+  - name: 设计
+    icon: fas fa-rocket
+    items:
+      - title: ReactBits动效
+        icon: favicon
+        url: https://reactbits.dev/
+      - title: MotionSites风格
+        icon: favicon
+        url: https://motionsites.ai/
+      - title: DesignPrompts风格
+        icon: favicon
+        url: https://www.designprompts.dev/
+
+      - title: Aura前端复刻
+        icon: favicon
+        url: https://www.aura.build/
+
