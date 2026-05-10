@@ -1,58 +1,62 @@
 ---
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: 🔥🍉🥭🍇🍋🍌🍑🥑
+  description: 欢迎来到水果摊
+  footerText: 🔥🍉🥭🍇🍋🍌🍑🥑
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    - title: Google
+      path: https://www.google.com
+    - title: ChatGPT
+      path: https://chatgpt.com/
 
-# Optional app settings and configuration
+pages:
+  - name: 🔥🔥🔥
+    path: conf.yml
+  - name: AI 🍋🍋🍋
+    path: https://raw.githubusercontent.com/bpshou/dashy_config/refs/heads/master/ai.yaml
+  - name: Banana 🍌🍌🍌
+    path: https://raw.githubusercontent.com/bpshou/dashy_config/refs/heads/master/banana.yaml
+
 appConfig:
-  theme: colorful
+  theme: nord-frost
+  layout: auto
+  iconSize: medium
+  language: cn
+  auth:
+    enableGuestAccess: false
+    users:
+      - user: origin
+        hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+        type: admin
 
-# Main content - An array of sections, each containing an array of items
 sections:
-  - name: Getting Started
+  - name: 工具集合
     icon: fas fa-rocket
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
-    items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
-
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+      - title: it 工具
+        icon: favicon
+        url: https://it-tools.tech/
+        target: newtab
+      - title: Json Crack
+        icon: favicon
+        url: https://jsoncrack.com/editor
+        target: newtab
+      - title: Hoppscotch
+        icon: favicon
+        url: https://hoppscotch.io/
+        target: newtab
+      - title: Swagger
+        icon: favicon
+        url: https://petstore.swagger.io/
+        target: newtab
+      - title: Excalidraw画板
+        icon: favicon
+        url: https://excalidraw.com/
+        target: newtab
+      - title: Diagrams画图
+        icon: favicon
+        url: https://app.diagrams.net/
+      - title: 无限画布
+        icon: favicon
+        url: https://www.tldraw.com/
+        target: newtab
