@@ -39,7 +39,6 @@ sections:
         icon: favicon
         url: https://it-tools.tech/
         target: newtab
-        target: newtab
       - title: Hoppscotch
         icon: favicon
         url: https://hoppscotch.io/
