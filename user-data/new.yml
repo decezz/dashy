@@ -35,7 +35,6 @@ sections:
       - type: clock
         options:
           timeZone: "Asia/Shanghai"   # 时区
-          format: "zh-CN"             # 日期格式
           hideDate: false             # 显示日期
           hideSeconds: false          # 显示秒数
 
