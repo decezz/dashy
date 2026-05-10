@@ -39,9 +39,6 @@ sections:
         icon: favicon
         url: https://it-tools.tech/
         target: newtab
-      - title: Json Crack
-        icon: favicon
-        url: https://jsoncrack.com/editor
         target: newtab
       - title: Hoppscotch
         icon: favicon
@@ -62,3 +59,17 @@ sections:
         icon: favicon
         url: https://www.tldraw.com/
         target: newtab
+
+sections:
+  - name: "⏰ 时间"
+    icon: "fas fa-sun"
+    displayData:
+      cols: 2          # 宽度占2列（总列数默认3，会与下一区域并排）
+      rows: 1
+    widgets:
+      # 1. 数字时钟（直接可用）
+      - type: clock
+        options:
+          timeZone: "Asia/Shanghai"   # 时区
+          hideDate: false             # 显示日期
+          hideSeconds: false          # 显示秒数
