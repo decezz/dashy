@@ -12,6 +12,8 @@ pageInfo:
 pages:
   - name: 🔥🔥🔥
     path: conf.yml
+  - name: 🔥🔥🔥
+    path: new.yml
   - name: AI 🍋🍋🍋
     path: https://raw.githubusercontent.com/bpshou/dashy_config/refs/heads/master/ai.yaml
   - name: Banana 🍌🍌🍌

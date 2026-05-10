@@ -1,0 +1,95 @@
+# ====================== 仪表板全局设置 ======================
+pageInfo:
+  title: "我的控制台"
+  description: "时间、天气、美图与新闻一站聚合"
+  # 左上角导航链接（可自行增删）
+  navLinks:
+    - title: "GitHub"
+      url: "https://github.com"
+    - title: "Dashy 文档"
+      url: "https://dashy.to/docs"
+  footerText: "Have a nice day! ☀️"
+
+appConfig:
+  # 主题，可选: dashy, colorful, minimal, material 等
+  theme: "dashy"
+  # 图标大小: small, medium, large
+  iconSize: "medium"
+  # 布局: auto, vertical, horizontal
+  layout: "auto"
+  # 网页搜索设置（用在 Dashy 顶部的搜索栏）
+  webSearch:
+    searchEngine: "google"
+    openingMethod: "newtab"
+
+# ====================== 面板区 ======================
+sections:
+  # ---------- 区域1：时间与天气 ----------
+  - name: "⏰ 时间与天气"
+    icon: "fas fa-sun"
+    displayData:
+      cols: 2          # 宽度占2列（总列数默认3，会与下一区域并排）
+      rows: 1
+    widgets:
+      # 1. 数字时钟（直接可用）
+      - type: clock
+        options:
+          timeZone: "Asia/Shanghai"   # 时区
+          format: "zh-CN"             # 日期格式
+          hideDate: false             # 显示日期
+          hideSeconds: false          # 显示秒数
+
+      # 2. 天气（需要注册免费的 OpenWeatherMap API Key）
+      - type: weather
+        options:
+          # 前往 https://openweathermap.org/api 注册，然后在个人中心获取 Key
+          apiKey: "你的_OpenWeatherMap_API_Key"
+          # 城市名（可用中文）
+          city: "北京"
+          # 温度单位: metric 摄氏度 / imperial 华氏度
+          units: "metric"
+          hideDetails: false
+
+  # ---------- 区域2：每日美图 ----------
+  - name: "🖼️ 每日美图"
+    icon: "fas fa-image"
+    displayData:
+      cols: 1
+      rows: 1
+    widgets:
+      - type: image
+        options:
+          # Unsplash 每日一张新图（无需 API Key，刷新即换）
+          # imagePath: "https://source.unsplash.com/daily/800x400"
+          # 或者使用 picsum 每晚0点更新（需在链接中嵌入日期，可借助 Dashy 模板变量，这里用固定尺寸随机图）
+          imagePath: "https://picsum.photos/800/400"
+          imageWidth: "800px"
+          imageHeight: "400px"
+
+  # ---------- 区域3：重要新闻 ----------
+  - name: "📰 重要新闻"
+    icon: "fas fa-newspaper"
+    displayData:
+      cols: 1
+      rows: 1
+    widgets:
+      # 3. RSS 新闻（需要注册 rss2json 免费 API Key）
+      - type: rss-feed
+        options:
+          # 前往 https://rss2json.com 注册，复制你的 API Key
+          apiKey: "你的_rss2json_API_Key"
+          # 新闻源 RSS 地址（可换成你喜欢的源）
+          rssUrl: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
+          limit: 10                # 显示条数
+          orderBy: "pubDate"       # 按发布时间排序
+          orderDirection: "desc"   # 倒序（最新在前）
+
+      # 可选：新闻头条（需要注册 Currents API 免费 Key）
+      # - type: news-headlines
+      #   options:
+      #     # 前往 https://currentsapi.services 注册
+      #     apiKey: "你的_CurrentsAPI_Key"
+      #     country: "CN"          # 国家代码
+      #     category: "general"    # 新闻类别：general, technology, sports...
+      #     lang: "zh"             # 语言：zh 中文, en 英文
+      #     count: 10
