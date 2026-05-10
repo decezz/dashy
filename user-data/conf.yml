@@ -88,7 +88,7 @@ sections:
   - name: "⏰ 时间"
     icon: "fas fa-sun"
     displayData:
-      cols: 2          # 宽度占2列（总列数默认3，会与下一区域并排）
+      cols: 1          # 宽度占2列（总列数默认3，会与下一区域并排）
       rows: 1
     widgets:
       # 1. 数字时钟（直接可用）
@@ -97,6 +97,17 @@ sections:
           timeZone: "Asia/Shanghai"   # 时区
           hideDate: false             # 显示日期
           hideSeconds: false          # 显示秒数
+
+
+  - name: 工作台
+    icon: fas fa-rocket
+    items:
+      - title: 飞书文档
+        icon: favicon
+        url: https://my.feishu.cn/wiki/ATPFwrZerioMmkki4N3cxuuCnmc
+      - title: cloudflare
+        icon: favicon
+        url: https://cloudflare.com/
 
 
   - name: 设计
