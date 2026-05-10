@@ -47,10 +47,10 @@ sections:
         icon: favicon
         url: https://www.douyin.com/
       - title: deepseek 聊天
-        icon: favicon
+        icon: https://fe-static.deepseek.com/chat/favicon.svg
         url: https://chat.deepseek.com/
       - title: deepseek开放平台
-        icon: favicon
+        icon: https://fe-static.deepseek.com/chat/favicon.svg
         url: https://platform.deepseek.com/
 
       - title: it 工具
@@ -80,7 +80,7 @@ sections:
         icon: https://mail.proton.me/assets/android-chrome-144x144.png
         url: https://mail.proton.me/
       - title: Vercel
-        icon: favicon
+        icon: https://cdn1.vercel.com/vercel.svg
         url: https://vercel.com/
         
 
@@ -106,13 +106,13 @@ sections:
         icon: favicon
         url: https://reactbits.dev/
       - title: MotionSites风格
-        icon: favicon
+        icon: https://motionsites.ai/favicon.ico
         url: https://motionsites.ai/
       - title: DesignPrompts风格
-        icon: favicon
+        icon: https://www.designprompts.dev/favicon.svg
         url: https://www.designprompts.dev/
 
       - title: Aura前端复刻
-        icon: favicon
+        icon: https://www.aura.build/logo-aura-128-light.png
         url: https://www.aura.build/
 
