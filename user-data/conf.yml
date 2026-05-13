@@ -31,7 +31,6 @@ appConfig:
 
 sections:
   - name: "⏰ 时间"
-    icon: "fas fa-sun"
     displayData:
       cols: 1          # 宽度占2列（总列数默认3，会与下一区域并排）
       rows: 1
@@ -44,8 +43,7 @@ sections:
           hideSeconds: false          # 显示秒数
 
 
-  - name: 主流
-    icon: fab fa-web-awesome
+  - name: 🔥 主流
     items:
       - title: Google
         icon: favicon
@@ -68,8 +66,7 @@ sections:
         url: https://platform.deepseek.com/
 
 
-  - name: 工作台
-    icon: fas fa-rocket
+  - name: 🖥️ 工作台
     items:
       - title: 飞书文档
         icon: https://lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/feishu.ico
@@ -82,8 +79,7 @@ sections:
         url: https://cloudflare.com/
 
 
-  - name: 设计
-    icon: fas fa-rocket
+  - name: ✨ 设计
     items:
       - title: ReactBits动效
         icon: favicon
@@ -107,8 +103,7 @@ sections:
 
 
 
-  - name: 工具集合
-    icon: fas fa-rocket
+  - name: 🔧 工具
     items:
       - title: it 工具
         icon: favicon
@@ -141,8 +136,7 @@ sections:
         url: https://vercel.com/
 
 
-  - name: 建站工具
-    icon: fas fa-rocket
+  - name: 🏠 建站
     items:
       - title: bolt
         icon: favicon
