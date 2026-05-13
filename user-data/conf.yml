@@ -30,6 +30,20 @@ appConfig:
         type: admin
 
 sections:
+  - name: "⏰ 时间"
+    icon: "fas fa-sun"
+    displayData:
+      cols: 1          # 宽度占2列（总列数默认3，会与下一区域并排）
+      rows: 1
+    widgets:
+      # 1. 数字时钟（直接可用）
+      - type: clock
+        options:
+          timeZone: "Asia/Shanghai"   # 时区
+          hideDate: false             # 显示日期
+          hideSeconds: false          # 显示秒数
+
+
   - name: 工具集合
     icon: fas fa-rocket
     items:
@@ -53,6 +67,43 @@ sections:
         icon: https://fe-static.deepseek.com/chat/favicon.svg
         url: https://platform.deepseek.com/
 
+
+  - name: 工作台
+    icon: fas fa-rocket
+    items:
+      - title: 飞书文档
+        icon: https://lf-package-cn.feishucdn.com/obj/feishu-static/ccm-vmok/web/feishu.ico
+        url: https://my.feishu.cn/wiki/ATPFwrZerioMmkki4N3cxuuCnmc
+      - title: 语雀
+        icon: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*sRUdR543RjcAAAAAAAAAAAAADvuFAQ/original
+        url: https://www.yuque.com/dashboard
+      - title: cloudflare
+        icon: favicon
+        url: https://cloudflare.com/
+
+
+  - name: 设计
+    icon: fas fa-rocket
+    items:
+      - title: ReactBits动效
+        icon: favicon
+        url: https://reactbits.dev/
+      - title: MotionSites风格
+        icon: https://motionsites.ai/favicon.ico
+        url: https://motionsites.ai/
+      - title: DesignPrompts风格
+        icon: https://www.designprompts.dev/favicon.svg
+        url: https://www.designprompts.dev/
+
+      - title: Aura前端复刻
+        icon: https://www.aura.build/logo-aura-128-light.png
+        url: https://www.aura.build/
+
+
+
+  - name: 工具集合
+    icon: fas fa-rocket
+    items:
       - title: it 工具
         icon: favicon
         url: https://it-tools.tech/
@@ -82,48 +133,3 @@ sections:
       - title: Vercel
         icon: https://cdn1.vercel.com/vercel.svg
         url: https://vercel.com/
-        
-
-
-  - name: "⏰ 时间"
-    icon: "fas fa-sun"
-    displayData:
-      cols: 1          # 宽度占2列（总列数默认3，会与下一区域并排）
-      rows: 1
-    widgets:
-      # 1. 数字时钟（直接可用）
-      - type: clock
-        options:
-          timeZone: "Asia/Shanghai"   # 时区
-          hideDate: false             # 显示日期
-          hideSeconds: false          # 显示秒数
-
-
-  - name: 工作台
-    icon: fas fa-rocket
-    items:
-      - title: 飞书文档
-        icon: favicon
-        url: https://my.feishu.cn/wiki/ATPFwrZerioMmkki4N3cxuuCnmc
-      - title: cloudflare
-        icon: favicon
-        url: https://cloudflare.com/
-
-
-  - name: 设计
-    icon: fas fa-rocket
-    items:
-      - title: ReactBits动效
-        icon: favicon
-        url: https://reactbits.dev/
-      - title: MotionSites风格
-        icon: https://motionsites.ai/favicon.ico
-        url: https://motionsites.ai/
-      - title: DesignPrompts风格
-        icon: https://www.designprompts.dev/favicon.svg
-        url: https://www.designprompts.dev/
-
-      - title: Aura前端复刻
-        icon: https://www.aura.build/logo-aura-128-light.png
-        url: https://www.aura.build/
-
