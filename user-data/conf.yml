@@ -44,7 +44,7 @@ sections:
           hideSeconds: false          # 显示秒数
 
 
-  - name: 工具集合
+  - name: 主流
     icon: fas fa-rocket
     items:
       - title: Google
@@ -98,6 +98,12 @@ sections:
       - title: Aura前端复刻
         icon: https://www.aura.build/logo-aura-128-light.png
         url: https://www.aura.build/
+      - title: pinterest
+        icon: favicon
+        url: https://www.pinterest.com/
+      - title: higgsfield
+        icon: favicon
+        url: https://higgsfield.ai/
 
 
 
@@ -133,3 +139,14 @@ sections:
       - title: Vercel
         icon: https://cdn1.vercel.com/vercel.svg
         url: https://vercel.com/
+
+
+  - name: 建站工具
+    icon: fas fa-rocket
+    items:
+      - title: bolt
+        icon: favicon
+        url: https://bolt.new/
+      - title: lovable
+        icon: favicon
+        url: https://lovable.dev/
