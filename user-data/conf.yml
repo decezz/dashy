@@ -45,7 +45,7 @@ sections:
 
 
   - name: 主流
-    icon: fas fa-rocket
+    icon: fab fa-web-awesome
     items:
       - title: Google
         icon: favicon
