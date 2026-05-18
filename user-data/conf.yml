@@ -138,6 +138,9 @@ sections:
 
   - name: 🏠 建站
     items:
+      - title: EmojiPedia
+        icon: favicon
+        url: https://emojipedia.org/
       - title: bolt
         icon: favicon
         url: https://bolt.new/
@@ -146,7 +149,7 @@ sections:
         url: https://lovable.dev/
 
 
-  - name: 🏠 CodingPlan
+  - name: ⌨️ CodingPlan
     items:
       - title: 小米MiMo
         icon: favicon
