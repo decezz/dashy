@@ -144,3 +144,16 @@ sections:
       - title: lovable
         icon: favicon
         url: https://lovable.dev/
+
+
+  - name: 🏠 CodingPlan
+    items:
+      - title: 小米MiMo
+        icon: favicon
+        url: https://platform.xiaomimimo.com/console/balance
+      - title: GLM
+        icon: favicon
+        url: https://www.bigmodel.cn/glm-coding
+      - title: Sensenova日日新
+        icon: favicon
+        url: https://platform.sensenova.cn/console
