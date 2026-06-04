@@ -163,3 +163,10 @@ sections:
       - title: Agnes
         icon: https://agnes-cdn.kiwiar.com/logo/agnes-icon-400x400.jpg
         url: https://platform.agnes-ai.com/
+
+
+  - name: ⌨️ 图片处理
+    items:
+      - title: Birefnet 抠图
+        icon: favicon
+        url: https://fal.ai/models/fal-ai/birefnet/v2
