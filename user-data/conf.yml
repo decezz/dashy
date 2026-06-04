@@ -158,8 +158,8 @@ sections:
         icon: favicon
         url: https://www.bigmodel.cn/glm-coding
       - title: Sensenova日日新
-        icon: favicon
+        icon: https://platform.sensenova.cn/favicon.ico
         url: https://platform.sensenova.cn/console
       - title: Agnes
-        icon: favicon
+        icon: https://agnes-cdn.kiwiar.com/logo/agnes-icon-400x400.jpg
         url: https://platform.agnes-ai.com/
