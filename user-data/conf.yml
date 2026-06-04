@@ -160,3 +160,6 @@ sections:
       - title: Sensenova日日新
         icon: favicon
         url: https://platform.sensenova.cn/console
+      - title: Agnes
+        icon: favicon
+        url: https://platform.agnes-ai.com/
