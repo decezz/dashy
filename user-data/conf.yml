@@ -13,9 +13,11 @@ pages:
   - name: 🔥🔥🔥
     path: conf.yml
   - name: AI 🍋🍋🍋
-    path: https://raw.githubusercontent.com/bpshou/dashy_config/refs/heads/master/ai.yaml
+    path: ai.yaml
   - name: Banana 🍌🍌🍌
-    path: https://raw.githubusercontent.com/bpshou/dashy_config/refs/heads/master/banana.yaml
+    path: banana.yaml
+  - name: Interesting 🥑🥑🥑
+    path: interesting.yaml
 
 appConfig:
   theme: nord-frost

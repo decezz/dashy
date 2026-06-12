@@ -1,0 +1,189 @@
+pageInfo:
+  title: 🍌🍌🍌
+  description: Banana
+  footerText: 🔥🍉🥭🍇🍋🍌🍑🥑
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: undefined
+  language: cn
+  auth:
+    enableGuestAccess: false
+    users:
+      - user: origin
+        hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+        type: admin
+
+sections:
+  - name: 工具集合
+    icon: 🧋🧋🧋
+    items:
+      - title: it 工具
+        icon: favicon
+        url: https://it-tools.tech/
+      - title: Json Crack
+        icon: favicon
+        url: https://jsoncrack.com/editor
+      - title: Json 4u
+        icon: https://json4u.com/icon.svg
+        url: https://json4u.com/editor
+      - title: jsonhero
+        icon: favicon
+        url: https://jsonhero.io/j/d9udW60cLOok/editor
+      - title: Json todiagram
+        icon: favicon
+        url: https://todiagram.com/editor
+      - title: Hoppscotch
+        icon: favicon
+        url: https://hoppscotch.io/
+      - title: Swagger
+        icon: favicon
+        url: https://petstore.swagger.io/
+      - title: Excalidraw画板
+        icon: favicon
+        url: https://excalidraw.com/
+      - title: Diagrams画图
+        icon: favicon
+        url: https://app.diagrams.net/
+      - title: 无限画布
+        icon: favicon
+        url: https://www.tldraw.com/
+      - title: Affine知识库
+        icon: favicon
+        url: https://app.affine.pro/
+      - title: 短代码片段
+        icon: 📝
+        url: https://www.30secondsofcode.org/
+      - title: proton邮箱
+        icon: favicon
+        url: https://mail.proton.me/u/0/inbox
+      - title: Screego
+        icon: favicon
+        url: https://app.screego.net/
+      - title: LinuxCommand
+        icon: favicon
+        url: https://wangchujiang.com/linux-command/
+      - title: 网络瑞士军刀
+        icon: ✂️
+        url: https://gchq.github.io/CyberChef/
+      - title: httpbin
+        icon: favicon
+        url: https://httpbin.org/
+      - title: element聊天
+        icon: favicon
+        url: https://app.element.io/
+      - title: NginxConfig
+        icon: favicon
+        url: https://do.co/nginxconfig
+      - title: Reactbits
+        icon: favicon
+        url: https://www.reactbits.dev/
+      - title: file-transfer-go
+        icon: favicon
+        url: https://transfer.52python.cn/
+      - title: play-with-docker
+        icon: favicon
+        url: https://labs.play-with-docker.com/
+      - title: 在线组装电脑
+        icon: favicon
+        url: https://buildcores.com/
+      - title: 文档提取神器
+        icon: favicon
+        url: https://huggingface.co/spaces/opendatalab/MinerU
+      - title: github codespaces
+        icon: favicon
+        url: https://github.com/codespaces
+      - title: 在线PS photopea
+        icon: favicon
+        url: https://www.photopea.com/
+
+  - name: 知识
+    icon: 🧀🧀🧀
+    items:
+      - title: hello-algo
+        icon: favicon
+        url: https://www.hello-algo.com/
+      - title: Go 风格指南
+        icon: favicon
+        url: https://google.github.io/styleguide/go/
+      - title: 键盘工人设计的单词学习
+        icon: favicon
+        url: https://qwerty.kaiyi.cool/
+      - title: 句乐部
+        icon: favicon
+        url: https://julebu.co/
+      - title: NCE Flow
+        icon: favicon
+        url: https://nce.luzhenhua.cn/
+      - title: Hack Security
+        icon: favicon
+        url: https://hacksplaining.com/
+
+  - name: 网络
+    icon: 🌐🌐🌐
+    items:
+      - title: fofa
+        icon: favicon
+        url: https://fofa.info/
+      - title: shodan
+        icon: favicon
+        url: https://www.shodan.io/
+      - title: 钟馗之眼
+        icon: favicon
+        url: https://www.zoomeye.org/
+      - title: 33台词
+        description: 通过台词找影片素材
+        icon: favicon
+        url: https://33.agilestudio.cn/
+      - title: Web Check
+        icon: generative
+        url: https://web-check.xyz/
+      - title: IP地址 whatismyipaddress
+        icon: generative
+        url: https://whatismyipaddress.com/
+      - title: IP地址 geodatatool
+        icon: generative
+        url: https://www.geodatatool.com/
+      - title: IP地址 iplocation
+        icon: generative
+        url: https://www.iplocation.net/
+      - title: ping IP
+        icon: generative
+        url: https://ping.pe/
+
+  - name: Cloudflare
+    icon: 🚀🚀🚀
+    items:
+      - title: CloudFlareSpeed (官方)
+        icon: favicon
+        url: https://speed.cloudflare.com/
+      - title: CloudFlareYes
+        icon: favicon
+        url: https://stock.hostmonit.com/CloudFlareYes
+      - title: IpFlaresCloud
+        icon: favicon
+        url: http://ip.flares.cloud/
+
+  - name: 办公
+    icon: 💻💻💻
+    items:
+      - title: onlyoffice
+        icon: generative
+        url: https://dece.onlyoffice.com/
+      - title: MTranServer
+        icon: generative
+        url: https://mtranserver.ipacel.cc/ui/
+
+  - name: 商业
+    icon: 💻💻💻
+    items:
+      - title: 大盘云图
+        icon: favicon
+        url: https://dapanyuntu.com/
+      - title: 失败创业案例研究
+        icon: favicon
+        url: https://www.loot-drop.io/

@@ -1,0 +1,98 @@
+pageInfo:
+  title: 🥑🥑🥑
+  description: Interesting
+  footerText: 🔥🍉🥭🍇🍋🍌🍑🥑
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: undefined
+  language: cn
+  auth:
+    enableGuestAccess: false
+    users:
+      - user: origin
+        hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+        type: admin
+
+sections:
+  - name: 有趣的
+    icon: 🤪🤪🤪
+    items:
+      - title: emojiPedia
+        icon: favicon
+        url: https://emojipedia.org/
+      - title: copy.sh
+        icon: favicon
+        url: https://copy.sh/v86/
+      - title: 假装 Windows 升级界面
+        icon: favicon
+        url: https://tools.devhjz.com/fakeupdate/
+      - title: 魔曰
+        icon: favicon
+        url: https://abra.halu.ca/
+      - title: Apple 苹果产品参数中心
+        icon: favicon
+        url: https://hubweb.cn/
+      - title: 设备维修
+        icon: favicon
+        url: https://www.ifixit.com/
+      - title: 全历史
+        icon: favicon
+        url: https://www.allhistory.com/
+      - title: VERSUS万物皆可对比
+        icon: favicon
+        url: https://versus.com/
+      - title: 麦田艺术-世界名画
+        icon: favicon
+        url: https://www.nbfox.com/
+      - title: cobalt视频下载
+        icon: favicon
+        url: https://cobalt.tools/
+      - title: 🌀 无意义的活动生成器
+        icon: favicon
+        url: https://svenstaro.github.io/genact/
+      - title: biodigital医学
+        icon: favicon
+        url: https://www.biodigital.com/
+
+
+  - name: Game
+    icon: 🎮🎮🎮
+    items:
+      - title: 坦克大战
+        icon: favicon
+        url: https://battle-city.js.org/#/
+      - title: FitGirl 游戏下载
+        icon: favicon
+        url: https://fitgirl-repacks.site/popular-repacks/
+      - title: 俄罗斯方块
+        icon: generative
+        url: https://chvin.github.io/react-tetris/?lan=zh
+      - title: 国际象棋
+        icon: favicon
+        url: https://lichess.org/
+      - title: 高尔夫
+        icon: generative
+        url: https://mgerdes.github.io/minigolf.html
+      - title: play2048
+        icon: favicon
+        url: https://play2048.co/
+      - title: 老游戏
+        icon: favicon
+        url: https://zaixianwan.app/
+      - title: 在线CS
+        icon: favicon
+        url: https://play-cs.com/
+      - title: 红色警戒
+        icon: favicon
+        url: https://ra2web.com/
+      - title: 在线游戏 AirConsole
+        icon: favicon
+        url: https://www.airconsole.com/
+      - title: itch
+        icon: favicon
+        url: https://itch.io/

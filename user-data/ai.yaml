@@ -1,0 +1,128 @@
+pageInfo:
+  title: 🍋🍋🍋
+  description: AI
+  footerText: 🔥🍉🥭🍇🍋🍌🍑🥑
+  navLinks:
+    - title: ChatGPT
+      path: https://chatgpt.com
+    - title: Deepseek
+      path: https://chat.deepseek.com
+    - title: Gemini
+      path: https://gemini.google.com/app
+    - title: Google Stitch
+      path: https://stitch.withgoogle.com
+    - title: ArtificialAnalysis
+      path: https://artificialanalysis.ai/
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: undefined
+  language: cn
+  auth:
+    enableGuestAccess: false
+    users:
+      - user: origin
+        hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+        type: admin
+
+sections:
+  - name: AI
+    icon: 🍋‍🟩🍋‍🟩🍋‍🟩
+    items:
+      - title: ChatGPT
+        icon: generative
+        url: https://chatgpt.com/
+      - title: Deepseek
+        icon: https://fe-static.deepseek.com/chat/favicon.svg
+        url: https://chat.deepseek.com/
+      - title: Gemini
+        icon: generative
+        url: https://gemini.google.com/app
+      - title: Google Stitch
+        icon: generative
+        url: https://stitch.withgoogle.com/
+
+
+  - name: Skill
+    icon: 🍊🍊🍊
+    items:
+      - title: ClawHub
+        icon: https://clawhub.ai/clawd-logo.png
+        url: https://clawhub.ai/
+      - title: skills.sh
+        icon: https://skills.sh/favicon.ico?favicon.0b3bf435.ico
+        url: https://skills.sh/
+      - title: AwesomeSkills
+        icon: generative
+        url: https://awesome-skills.com/
+
+
+  - name: AI生图
+    icon: 🍒🍒🍒
+    items:
+      - title: Civitai
+        icon: https://civitai.com/favicon-blue.ico
+        url: https://civitai.com/
+      - title: 哩布哩布AI
+        icon: favicon
+        url: https://www.liblib.art/
+      - title: 通义万相
+        icon: favicon
+        url: https://tongyi.aliyun.com/wanxiang/
+      - title: openart workflows
+        icon: favicon
+        url: https://openart.ai/workflows/home
+      - title: comfyworkflows
+        icon: favicon
+        url: https://comfyworkflows.com/workflows
+      - title: 无界AI
+        icon: favicon
+        url: https://www.wujieai.com/
+      - title: vegaai
+        icon: favicon
+        url: https://vegaai.net/
+      - title: lovart
+        icon: favicon
+        url: https://www.lovart.ai/zh/home
+      - title: happyhorse
+        icon: favicon
+        url: https://happyhorse-ai.com/
+
+
+  - name: AI Platform
+    icon: 🍓🍓🍓
+    items:
+      - title: flowith AI
+        icon: favicon
+        url: https://flowith.io/
+      - title: Next AI Drawio
+        icon: favicon
+        url: https://next-ai-drawio.jiang.jp/zh
+      - title: Skillsmp
+        icon: favicon
+        url: https://skillsmp.com/
+      - title: LLM Visualization
+        icon: favicon
+        url: https://bbycroft.net/
+      - title: Poe
+        icon: generative
+        url: https://poe.com/
+      - title: 免费询问互联网
+        icon: generative
+        url: https://www.perplexity.ai/
+      - title: Ai换声音
+        icon: favicon
+        url: https://product.supertone.ai/shift
+      - title: Quivr AI
+        icon: generative
+        url: https://chat.quivr.app
+      - title: 在线数据库设计工具
+        icon: favicon
+        url: https://drawdb.vercel.app/editor
+      - title: 超级记忆AI
+        icon: favicon
+        url: https://supermemory.ai/
+      - title: 从 AI 开始交付3D动画网
+        icon: favicon
+        url: https://www.dora.run/
