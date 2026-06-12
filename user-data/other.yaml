@@ -1,0 +1,30 @@
+pageInfo:
+  title: 🍉🍉🍉
+  description: Other
+  footerText: 🔥🍉🥭🍇🍋🍌🍑🥑
+  navLinks:
+    - title: Google
+      path: https://www.google.com
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: undefined
+  language: cn
+  auth:
+    enableGuestAccess: false
+    users:
+      - user: origin
+        hash: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+        type: admin
+
+sections:
+  - name: 新闻
+    icon: 📝📝📝
+    items:
+      - title: virxact
+        icon: favicon
+        url: https://aihot.virxact.com/
+      - title: ai-news-radar
+        icon: favicon
+        url: https://learnprompt.github.io/ai-news-radar/

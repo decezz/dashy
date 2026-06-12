@@ -154,6 +154,9 @@ sections:
       - title: ping IP
         icon: generative
         url: https://ping.pe/
+      - title: VpnGate
+        icon: generative
+        url: https://www.vpngate.net/cn/
 
   - name: Cloudflare
     icon: 🚀🚀🚀

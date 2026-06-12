@@ -18,6 +18,8 @@ pages:
     path: banana.yaml
   - name: Interesting 🥑🥑🥑
     path: interesting.yaml
+  - name: Other 🥑🥑🥑
+    path: other.yaml
 
 appConfig:
   theme: nord-frost
@@ -172,3 +174,6 @@ sections:
       - title: Birefnet 抠图
         icon: favicon
         url: https://fal.ai/models/fal-ai/birefnet/v2
+      - title: shots图像和视频美化
+        icon: favicon
+        url: https://shots.so/
