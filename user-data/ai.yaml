@@ -126,3 +126,6 @@ sections:
       - title: 从 AI 开始交付3D动画网
         icon: favicon
         url: https://www.dora.run/
+      - title: MODELS.DEV
+        icon: favicon
+        url: https://models.dev/
