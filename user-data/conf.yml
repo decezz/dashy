@@ -177,3 +177,11 @@ sections:
       - title: shots图像和视频美化
         icon: favicon
         url: https://shots.so/
+
+
+  - name: CF Worker
+    icon: 🍓🍓🍓
+    items:
+      - title: GithubCollect
+        icon: favicon
+        url: https://github-collect.dece.qzz.io/
