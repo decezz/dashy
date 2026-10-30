@@ -90,6 +90,17 @@ sections:
         url: https://happyhorse-ai.com/
 
 
+  - name: AI视频
+    icon: 🍒🍒🍒
+    items:
+      - title: vidu
+        icon: generative
+        url: https://www.vidu.com/
+      - title: vmake
+        icon: generative
+        url: https://vmake.ai/
+
+
   - name: AI Platform
     icon: 🍓🍓🍓
     items:
