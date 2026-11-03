@@ -42,6 +42,9 @@ sections:
       - title: Google Stitch
         icon: generative
         url: https://stitch.withgoogle.com/
+      - title: Amd AI
+        icon: generative
+        url: https://developer.amd.com.cn/radeon/tokenfactory
 
 
   - name: Skill
