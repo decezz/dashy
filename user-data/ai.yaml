@@ -47,20 +47,6 @@ sections:
         url: https://developer.amd.com.cn/radeon/tokenfactory
 
 
-  - name: Skill
-    icon: 🍊🍊🍊
-    items:
-      - title: ClawHub
-        icon: https://clawhub.ai/clawd-logo.png
-        url: https://clawhub.ai/
-      - title: skills.sh
-        icon: https://skills.sh/favicon.ico?favicon.0b3bf435.ico
-        url: https://skills.sh/
-      - title: AwesomeSkills
-        icon: generative
-        url: https://awesome-skills.com/
-
-
   - name: AI生图
     icon: 🍒🍒🍒
     items:
@@ -143,3 +129,29 @@ sections:
       - title: MODELS.DEV
         icon: favicon
         url: https://models.dev/
+
+
+  - name: Skill
+    icon: 🍊🍊🍊
+    items:
+      - title: ClawHub
+        icon: https://clawhub.ai/clawd-logo.png
+        url: https://clawhub.ai/
+      - title: skills.sh
+        icon: https://skills.sh/favicon.ico?favicon.0b3bf435.ico
+        url: https://skills.sh/
+      - title: AwesomeSkills
+        icon: generative
+        url: https://awesome-skills.com/
+
+
+  - name: 新闻
+    icon: 📝📝📝
+    items:
+      - title: virxact
+        icon: favicon
+        url: https://aihot.virxact.com/
+      - title: ai-news-radar
+        icon: favicon
+        url: https://learnprompt.github.io/ai-news-radar/
+
